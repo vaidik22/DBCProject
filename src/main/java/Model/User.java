@@ -13,10 +13,9 @@ public class User {
     private String password;
     private String role;
 
-    public User(String userName, String password, String role) {
+    public User(String userName, String password) {
         this.userName = userName;
         this.password = password;
-        this.role = role;
     }
 
     public String getUserName() {
@@ -39,17 +38,12 @@ public class User {
         return role;
     }
 
-    public void setRole(String role) {
-        this.role = role;
-    }
 
     @Override
     public String toString() {
         return "User{" +
                 "userName='" + userName + '\'' +
-                ", password='" + password + '\'' +
-                ", role='" + role + '\'' +
-                '}';
+                ", password='" + password;
     }
 
     @Override
