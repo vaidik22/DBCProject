@@ -17,7 +17,7 @@ public class main {
         JOptionPane.showMessageDialog(
                 null,
                 guest,
-                "Student Details",
+                "Guest Details",
                 JOptionPane.INFORMATION_MESSAGE);
 
 
